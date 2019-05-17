@@ -2,7 +2,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoibWlrZW9tZWFyYTEiLCJhIjoiY2ppZjUybTl0MGtpbTNyb
 
 var map = new mapboxgl.Map({
   container: document.getElementById("map"),
-  style: 'mapbox://styles/mapbox/streets-v8'
+  style: 'mapbox://styles/mapbox/streets-v10'
 });
 
 
@@ -14,4 +14,4 @@ map.on('load', function() {
 map.addControl(Draw, 'top-left');
 });
 
-map.on("draw.modechange", function(e){ console.log(e)});
+
